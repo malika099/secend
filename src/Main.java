@@ -44,16 +44,26 @@ public class Main {
         int a = arms.nextInt();
         int b = arms.nextInt();
         int c = arms.nextInt();
-        System.out.println(5+"+"+7+"+"+8+"="+20);*/
+        System.out.println(5+"+"+7+"+"+8+"="+20);
 
 
         Scanner arms1 = new Scanner(System.in);
         int a = arms1.nextInt();
         int b = arms1.nextInt();
         int c = arms1.nextInt();
-        System.out.println(a+"*"+b+"*"+c+"="+200);
+        System.out.println(a+"*"+b+"*"+c+"="+200);*/
 
 
 
+        Scanner arms2 = new Scanner(System.in);
+        int a = arms2.nextInt();
+        int b = arms2.nextInt();
+        int c = arms2.nextInt();
+        int sum = a+b+c;
+        int multi = a*b*c;
+        double deliberate = (double) (a+b+c)/3;
+        System.out.println(a+"+"+b+"+"+c+"="+ sum);
+        System.out.println(a+"+b7+"+c+"="+multi);
+        System.out.println("("+a+"+"+b+"+"+c+")"+ "/" + 3+"="+deliberate);
     }
 }
