@@ -81,7 +81,7 @@ public class Main {
             String m;
             int n = sc.nextInt();
             m = n>=18?"Сизге алкоголь болот":"сизге алкоголь болбойт ";
-            System.out.println(m);*/
+            System.out.println(m);
         Scanner sc = new Scanner(System.in);
         int hours = sc.nextInt();
         int mim = sc.nextInt();
@@ -91,7 +91,12 @@ public class Main {
         int num2 = mim*60;
         int num3 = sec;
         int sum= num + num2 + num3;
-        System.out.println(sum);
-
+        System.out.println(sum);*/
+        for (int i = 2; i <= 10; i++) {
+            System.out.println("Таблица умножения для " + i + ":");
+            for (int j = 1; j <= 10; j++) {
+                System.out.println(i + "*" + j + "=" + i * j);
+            }
+        }
     }
 }
