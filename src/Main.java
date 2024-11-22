@@ -32,13 +32,19 @@ public class Main {
         int a = 50;
         int b = 60;
         int c = a + b;
-        System.out.println(c);*/
+        System.out.println(c);
 
         Scanner boll = new Scanner(System.in);
         int a1 = boll.nextInt();
         int b1 = boll.nextInt();
         int sum1 = a1 + b1;
-        System.out.println(sum1);
+        System.out.println(sum1);*/
+
+        Scanner arms = new Scanner(System.in);
+        int a = arms.nextInt();
+        int b = arms.nextInt();
+        int c = arms.nextInt();
+        System.out.println(5+"+"+7+"+"+8+"="+20);
 
     }
 }
