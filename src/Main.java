@@ -1,3 +1,4 @@
+import java.util.Random;
 import java.util.Scanner;
 
 public class Main {
@@ -118,9 +119,18 @@ public class Main {
         int sum = 0;
         for (int i = a; i <= b; i++) {
             if (i % 2 == 1) {
-                sum += i;*/
+                sum += i;
 
-        System.out.println("malika");
+        System.out.println("malika");*/
+
+
+        Scanner sc = new Scanner(System.in);
+        Random random = new Random(100);
+        String soz = sc.nextLine();
+        String soz2 = soz.substring( 0, random.nextInt(soz.length())).toUpperCase();
+        String soz3 = soz.substring(random.nextInt(soz.length())).toLowerCase();
+
+        System.out.println(soz2+soz3);
             }
         }
 
