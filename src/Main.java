@@ -11,7 +11,7 @@ public class Main {
         int b = a%10;
         int c = (a/10)%10;
         int e = (a/100)%10;
-        System.out.println(e+","+c+","+b);*/
+        System.out.println(e+","+c+","+b);
 
         int number = 567;
         int number1 = number%10;
@@ -24,9 +24,13 @@ public class Main {
         int num2 = num%10;
         int num3 = (num/10)%10;
         int num4 =(num/100)%10;
-        System.out.println(num4+ ","+num3+","+num2);
+        System.out.println(num4+ ","+num3+","+num2);*/
 
 
+        int a = 50;
+        int b = 60;
+        int c = a + b;
+        System.out.println(c);
 
     }
 }
