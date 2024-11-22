@@ -29,6 +29,8 @@ public class Main {
         System.out.println(num4+ ","+num3+","+num2);
 
 
+
+
         int a = 50;
         int b = 60;
         int c = a + b;
@@ -63,7 +65,7 @@ public class Main {
         double deliberate = (double) (a+b+c)/3;
         System.out.println(a+"+"+b+"+"+c+"="+ sum);
         System.out.println(a+"+b7+"+c+"="+multi);
-        System.out.println("("+a+"+"+b+"+"+c+")"+ "/" + 3+"="+deliberate);*/
+        System.out.println("("+a+"+"+b+"+"+c+")"+ "/" + 3+"="+deliberate);
         Scanner sc = new Scanner(System.in);
         int a = sc.nextInt();
         int b = sc.nextInt();
@@ -79,6 +81,17 @@ public class Main {
             String m;
             int n = sc.nextInt();
             m = n>=18?"Сизге алкоголь болот":"сизге алкоголь болбойт ";
-            System.out.println(m);
+            System.out.println(m);*/
+        Scanner sc = new Scanner(System.in);
+        int hours = sc.nextInt();
+        int mim = sc.nextInt();
+        int sec = sc.nextInt();
+
+        int num = hours*3600;
+        int num2 = mim*60;
+        int num3 = sec;
+        int sum= num + num2 + num3;
+        System.out.println(sum);
+
     }
 }
