@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
 
@@ -24,13 +26,19 @@ public class Main {
         int num2 = num%10;
         int num3 = (num/10)%10;
         int num4 =(num/100)%10;
-        System.out.println(num4+ ","+num3+","+num2);*/
+        System.out.println(num4+ ","+num3+","+num2);
 
 
         int a = 50;
         int b = 60;
         int c = a + b;
-        System.out.println(c);
+        System.out.println(c);*/
+
+        Scanner boll = new Scanner(System.in);
+        int a1 = boll.nextInt();
+        int b1 = boll.nextInt();
+        int sum1 = a1 + b1;
+        System.out.println(sum1);
 
     }
 }
