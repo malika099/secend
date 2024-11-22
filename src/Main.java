@@ -121,7 +121,7 @@ public class Main {
             if (i % 2 == 1) {
                 sum += i;
 
-        System.out.println("malika");*/
+        System.out.println("malika");
 
 
         Scanner sc = new Scanner(System.in);
@@ -130,7 +130,19 @@ public class Main {
         String soz2 = soz.substring( 0, random.nextInt(soz.length())).toUpperCase();
         String soz3 = soz.substring(random.nextInt(soz.length())).toLowerCase();
 
-        System.out.println(soz2+soz3);
+        System.out.println(soz2+soz3);*/
+
+
+        Scanner sc =new Scanner(System.in);
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+        for (int i=a; i<=b; i++){
+            if (i%2==0);
+
+        }
+
+        System.out.println();
+
             }
         }
 
