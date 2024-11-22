@@ -110,7 +110,7 @@ public class Main {
         int num2 = num%10;
         int num3 = (num/10)%10;
         int num4 =(num/100)%10;
-        System.out.println(num4+ ","+num3+","+num2);*/
+        System.out.println(num4+ ","+num3+","+num2);
 
         Scanner sc = new Scanner(System.in);
         int a = sc.nextInt();
@@ -118,8 +118,10 @@ public class Main {
         int sum = 0;
         for (int i = a; i <= b; i++) {
             if (i % 2 == 1) {
-                sum += i;
+                sum += i;*/
+
+        System.out.println("malika");
             }
         }
-    }
-}
+
+
