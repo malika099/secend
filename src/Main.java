@@ -91,12 +91,25 @@ public class Main {
         int num2 = mim*60;
         int num3 = sec;
         int sum= num + num2 + num3;
-        System.out.println(sum);*/
+        System.out.println(sum);
+
+
         for (int i = 2; i <= 10; i++) {
             System.out.println("Таблица умножения для " + i + ":");
             for (int j = 1; j <= 10; j++) {
-                System.out.println(i + "*" + j + "=" + i * j);
-            }
+                System.out.println(i + "*" + j + "=" + i * j);*/
+
+        int number = 567;
+        int number1 = number%10;
+        int number2  = (number/10)%10;
+        int number3 = (number/100)%10;
+        System.out.println(number3+ ","+number2+","+number1);
+
+
+        int num = 321;
+        int num2 = num%10;
+        int num3 = (num/10)%10;
+        int num4 =(num/100)%10;
+        System.out.println(num4+ ","+num3+","+num2);
         }
     }
-}
