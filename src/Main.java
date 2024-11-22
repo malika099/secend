@@ -38,13 +38,22 @@ public class Main {
         int a1 = boll.nextInt();
         int b1 = boll.nextInt();
         int sum1 = a1 + b1;
-        System.out.println(sum1);*/
+        System.out.println(sum1);
 
         Scanner arms = new Scanner(System.in);
         int a = arms.nextInt();
         int b = arms.nextInt();
         int c = arms.nextInt();
-        System.out.println(5+"+"+7+"+"+8+"="+20);
+        System.out.println(5+"+"+7+"+"+8+"="+20);*/
+
+
+        Scanner arms1 = new Scanner(System.in);
+        int a = arms1.nextInt();
+        int b = arms1.nextInt();
+        int c = arms1.nextInt();
+        System.out.println(a+"*"+b+"*"+c+"="+200);
+
+
 
     }
 }
