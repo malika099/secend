@@ -51,8 +51,7 @@ public class Main {
         int a = arms1.nextInt();
         int b = arms1.nextInt();
         int c = arms1.nextInt();
-        System.out.println(a+"*"+b+"*"+c+"="+200);*/
-
+        System.out.println(a+"*"+b+"*"+c+"="+200);
 
 
         Scanner arms2 = new Scanner(System.in);
@@ -64,6 +63,22 @@ public class Main {
         double deliberate = (double) (a+b+c)/3;
         System.out.println(a+"+"+b+"+"+c+"="+ sum);
         System.out.println(a+"+b7+"+c+"="+multi);
-        System.out.println("("+a+"+"+b+"+"+c+")"+ "/" + 3+"="+deliberate);
+        System.out.println("("+a+"+"+b+"+"+c+")"+ "/" + 3+"="+deliberate);*/
+        Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+        int c = sc.nextInt();
+        String string = sc.next();
+        if (a>b && a>c){
+            System.out.println(a);
+        } else if (b>a && b>c) {
+            System.out.println(b);
+
+        } else if ( c>a && c>b) {
+            System.out.println(c);
+            String m;
+            int n = sc.nextInt();
+            m = n>=18?"Сизге алкоголь болот":"сизге алкоголь болбойт ";
+            System.out.println(m);
     }
 }
